@@ -46,6 +46,11 @@ const CreatePage = () => {
           description: "Your Product is created successfully!!",
           action: <ToastAction altText="Success">Done</ToastAction>
       })
+      setNewProduct({
+        name: "",
+        price: "",
+        image: "",
+      })
     }
 
   };
@@ -56,7 +61,7 @@ const CreatePage = () => {
         <CardHeader>
           <CardTitle className="text-2xl sm:text-3xl">Create Product</CardTitle>
           <CardDescription>
-            Create and list your new project in one-click.
+            Create and list your new product.
           </CardDescription>
         </CardHeader>
         <CardContent>

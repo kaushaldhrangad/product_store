@@ -16,10 +16,10 @@ const Navbar = () => {
         </Link>
 
         {/* Menu for larger screens */}
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden md:flex space-x-4 text-xl">
           <Link
             to={"/"}
-            className="text-gray-300 hover:text-white font-bold transition-all duration-300 ease-in-out hover:scale-105"
+            className="text-gray-300  hover:text-white font-bold transition-all duration-300 ease-in-out hover:scale-105"
           >
             Home
           </Link>
