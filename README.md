@@ -1,7 +1,8 @@
 # Product Store
 
 ## 📽️ Video Proof
-![product_store](https://github.com/user-attachments/assets/87633a38-9713-4bc1-87a4-165f23d3ed96)
+![product_store](./product_store.gif)
+
 
 
 ## Overview
